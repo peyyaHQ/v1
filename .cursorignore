@@ -1,0 +1,57 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+
+# Build files and directories
+.next/
+dist/
+build/
+out/
+.turbo/
+
+# Package managers
+node_modules/
+.pnpm-store/
+.yarn/
+.npm/
+
+# Cache
+.cache/
+.eslintcache
+.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+
+# Turborepo specific
+.turbo/
+.vercel/
+
+# Platform specific
+ios/Pods/
+android/.gradle/
+android/app/build/
+
+# Generated files
+*.generated.*
